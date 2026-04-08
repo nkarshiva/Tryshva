@@ -8,6 +8,9 @@ const navItems = [
   { label: "Contact", href: "#contact" },
 ];
 
+const brandExpansionFirstLine = "Technology Reimagined for Your Store's";
+const brandExpansionSecondLine = "High-performance Visual Architecture";
+
 export default function Header() {
   return (
     <header className="mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-6 lg:px-10">
@@ -18,7 +21,14 @@ export default function Header() {
         transition={{ duration: 0.6 }}
         className="flex items-center"
       >
-        <WordmarkLogo className="h-8 w-auto drop-shadow-[0_0_22px_rgba(96,165,250,0.16)]" />
+        <div className="flex flex-col items-start gap-1 text-left">
+          <WordmarkLogo className="h-8 w-auto drop-shadow-[0_0_22px_rgba(96,165,250,0.16)]" />
+
+          <p className="max-w-[14rem] text-[10px] uppercase leading-[1.45] tracking-[0.14em] text-white/42 sm:max-w-[18rem] lg:max-w-[26rem] lg:text-[12px] lg:tracking-[0.18em]">
+            <span className="block">{brandExpansionFirstLine}</span>
+            <span className="block">{brandExpansionSecondLine}</span>
+          </p>
+        </div>
       </motion.a>
 
       <motion.nav

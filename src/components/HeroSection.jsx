@@ -31,7 +31,7 @@ const headlineWords = [
 
 export default function HeroSection() {
   return (
-    <section className="grid min-h-[88vh] items-center gap-14 pt-10 lg:grid-cols-[1.08fr_0.92fr] lg:pt-16">
+    <section className="grid min-h-[88vh] items-center gap-14 pt-5 lg:grid-cols-[1.08fr_0.92fr] lg:pt-16">
       <div className="max-w-3xl">
         <motion.div
           initial={{ opacity: 0, y: 18 }}
