@@ -10,7 +10,7 @@ export const services = [
   {
     title: "Website Development",
     icon: "layers",
-    shortLabel: "React / Next.js",
+    shortLabel: "Premium Storefronts",
     shortDescription:
       "Get a fast, premium website or a full revamp of your current one so your business feels sharper, clearer, and easier to buy from.",
     longDescription:
