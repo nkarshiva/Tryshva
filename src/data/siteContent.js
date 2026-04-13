@@ -146,7 +146,7 @@ export const contactChannels = [
     label: "WhatsApp",
     icon: "chat",
     value: "Start a WhatsApp chat",
-    href: "https://wa.me/918292166177?text=Hi%20Tryshva%2C%20I%20want%20to%20get%20my%20store%20online.",
+    href: "https://wa.me/917406562756?text=Hi%20Tryshva%2C%20I%20want%20to%20get%20my%20store%20online.",
     description:
       "Best for quick questions, pricing chats, and discussing your current store setup.",
   },
