@@ -4,29 +4,30 @@ import HeroPreviewArt from "./HeroPreviewArt";
 
 const statCards = [
   {
-    value: "Premium",
-    label: "Design that feels polished, modern, and built to earn trust",
+    value: "Static",
+    label: "Premium websites for businesses that need trust, clarity, and enquiries",
   },
   {
-    value: "Mobile-first",
-    label: "Every screen designed for Instagram and WhatsApp traffic",
+    value: "Shopify",
+    label: "Storefront and backend setup built around real products and orders",
   },
   {
-    value: "More orders",
-    label: "Built to turn browsing into enquiries, chats, and sales",
+    value: "WhatsApp",
+    label: "Marketing and enquiry flows that turn interest into conversations",
   },
 ];
 
 const headlineWords = [
-  "Turn",
-  "your",
-  "offline",
-  "store",
-  "into",
-  "an",
+  "Build",
+  "a",
+  "premium",
   "online",
-  "sales",
-  "machine.",
+  "presence",
+  "that",
+  "turns",
+  "visitors",
+  "into",
+  "buyers.",
 ];
 
 export default function HeroSection() {
@@ -40,7 +41,7 @@ export default function HeroSection() {
           className="inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/[0.045] px-4 py-2 text-sm text-white/70 backdrop-blur"
         >
           <span className="h-2 w-2 rounded-full bg-sky-300 shadow-[0_0_18px_rgba(125,211,252,0.75)]" />
-          Websites, WhatsApp commerce, and Instagram funnels for local brands
+          Static websites, Shopify stores, WhatsApp marketing, and Instagram funnels
         </motion.div>
 
         <h1 className="mt-8 max-w-4xl text-5xl font-semibold leading-[0.95] tracking-[-0.055em] text-white sm:text-6xl lg:text-7xl">
@@ -67,10 +68,10 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="mt-8 max-w-2xl text-lg leading-8 text-white/62 sm:text-xl"
         >
-          Tryshva helps local businesses build premium online stores that turn
-          Instagram and WhatsApp traffic into real enquiries and orders. If your
-          current website feels outdated or underwhelming, we can revamp it into
-          something far more modern, premium, and conversion-focused.
+          Tryshva helps local businesses choose the right digital setup: a premium
+          static website for trust and enquiries, a Shopify store with backend
+          structure, or WhatsApp marketing flows that turn Instagram traffic into
+          real conversations, checkout actions, and orders.
         </motion.p>
 
         <motion.div
@@ -83,13 +84,13 @@ export default function HeroSection() {
             href="#contact"
             className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3.5 text-sm font-semibold text-slate-950 transition hover:scale-[1.01] hover:bg-sky-100"
           >
-            Get Your Store Online
+            Explore My Best Setup
           </a>
           <a
             href="#showcase"
             className="inline-flex items-center justify-center rounded-full border border-white/12 bg-white/[0.04] px-6 py-3.5 text-sm font-semibold text-white/78 backdrop-blur transition hover:border-white/20 hover:text-white"
           >
-            View Demo Store
+            View Store Concepts
           </a>
         </motion.div>
 
@@ -108,8 +109,8 @@ export default function HeroSection() {
           transition={{ duration: 0.7, delay: 0.68 }}
           className="mt-3 text-sm text-sky-100/72"
         >
-          Already have a website? We can redesign and revamp it into something far
-          more premium and conversion-focused.
+          Already have a website? We can redesign it into a sharper static site
+          or upgrade it into a Shopify-ready store when you need full commerce.
         </motion.p>
 
         <div className="mt-12 grid gap-4 sm:grid-cols-3">
@@ -145,10 +146,10 @@ export default function HeroSection() {
             <div className="flex items-center justify-between rounded-[1.4rem] border border-white/8 bg-white/[0.03] px-4 py-3">
               <div>
                 <p className="text-sm font-semibold text-white/90">
-                  Tryshva Demo Store
+                  Tryshva Shopify Concept Store
                 </p>
                 <p className="mt-1 text-xs text-white/45">
-                  Premium storefront designed for mobile shoppers
+                  Shopify-ready storefront designed for mobile shoppers
                 </p>
               </div>
               <div className="rounded-full border border-sky-300/20 bg-sky-300/10 px-3 py-1 text-xs text-sky-200">
@@ -172,11 +173,11 @@ export default function HeroSection() {
                       </div>
                       <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-3">
                         <p className="text-sm text-white/75">
-                          New arrivals, size guide, one-tap WhatsApp checkout
+                          New arrivals, product details, one-tap order flow
                         </p>
                       </div>
                       <div className="rounded-full bg-white px-4 py-2 text-center text-sm font-semibold text-slate-950">
-                        Shop on WhatsApp
+                        Shop Now
                       </div>
                     </div>
                   </div>
@@ -191,7 +192,7 @@ export default function HeroSection() {
                         What the owner gets
                       </p>
                       <p className="mt-3 text-2xl font-semibold tracking-[-0.04em] text-white">
-                        A premium store that feels easy to buy from
+                        A premium store with a backend you can manage
                       </p>
                     </div>
                     <svg
@@ -238,10 +239,10 @@ export default function HeroSection() {
                       </svg>
                     </div>
                     <p className="text-xs uppercase tracking-[0.22em] text-white/35">
-                      Instagram Traffic
+                      Shopify Backend
                     </p>
                     <p className="mt-2 text-base leading-7 text-white/68">
-                      Visitors land on a mobile page that feels premium and clear.
+                      Products, collections, and key store settings are organized clearly.
                     </p>
                   </div>
                   <div className="rounded-[1.4rem] border border-white/10 bg-white/[0.03] p-4">
@@ -272,15 +273,15 @@ export default function HeroSection() {
                       WhatsApp Orders
                     </p>
                     <p className="mt-2 text-base leading-7 text-white/68">
-                      Product questions and orders move into chat instantly.
+                      Product questions and purchase intent move into chat instantly.
                     </p>
                   </div>
                 </div>
 
                 <div className="rounded-[1.6rem] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.025))] p-5">
                   <p className="text-sm font-semibold text-white/90">
-                    Made for boutiques, furniture studios, jewellery labels, and
-                    growing local brands that need online sales without complexity.
+                    Made for local businesses that need a premium store, a practical
+                    backend, and online sales without unnecessary complexity.
                   </p>
                 </div>
               </div>

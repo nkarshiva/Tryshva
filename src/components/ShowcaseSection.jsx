@@ -8,8 +8,8 @@ export default function ShowcaseSection() {
     <section id="showcase" className="scroll-mt-24">
       <SectionHeading
         eyebrow="Concept Previews"
-        title="A look at the kind of online store experience Tryshva can build for local brands."
-        description="These are concept previews, not client projects. They show how a boutique or furniture store could look and sell online with a mobile-first, WhatsApp-ready flow."
+        title="A look at the kind of Shopify store experience Tryshva can build for local brands."
+        description="These are concept previews, not client projects. They show how a premium storefront, organized catalog, and mobile-first sales flow can work together."
       />
 
       <div className="mt-12 grid gap-6 lg:grid-cols-2">

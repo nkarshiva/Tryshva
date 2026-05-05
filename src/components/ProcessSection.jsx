@@ -8,8 +8,8 @@ export default function ProcessSection() {
     <section id="process" className="scroll-mt-24">
       <SectionHeading
         eyebrow="How It Works"
-        title="A simple three-step path from no online setup to daily enquiries and orders."
-        description="We keep the process clear, fast, and manageable so you can focus on your business while we shape the online experience."
+        title="A simple three-step path from scattered selling to a cleaner online setup."
+        description="We keep the process clear, fast, and manageable so you can focus on your business while we shape the website, Shopify backend, WhatsApp flow, or sales funnel."
       />
 
       <div className="mt-12 grid gap-6 lg:grid-cols-3">

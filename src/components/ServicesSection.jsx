@@ -21,11 +21,11 @@ export default function ServicesSection() {
     <section id="services" className="scroll-mt-24">
       <SectionHeading
         eyebrow="Services"
-        title="Three focused offers designed to help local businesses sell online."
-        description="Everything is built around one goal: helping your store look premium, feel easy to shop, and convert visitors into enquiries and orders."
+        title="Choose the setup your business needs right now."
+        description="Start with a premium static website, build a Shopify store, or add WhatsApp marketing and Instagram funnels when you are ready to turn attention into sales."
       />
 
-      <div className="mt-12 grid gap-6 lg:grid-cols-3">
+      <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
         {services.map((service, index) => (
           <motion.article
             key={service.title}

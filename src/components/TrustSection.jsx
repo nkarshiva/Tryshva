@@ -8,8 +8,8 @@ export default function TrustSection() {
     <section id="trust" className="scroll-mt-24">
       <SectionHeading
         eyebrow="Why Start With Us"
-        title="You do not need a big agency history to get a thoughtful, high-quality online store."
-        description="Instead of pretending we have client case studies already, we keep the pitch honest: clear execution, premium design thinking, and a strong focus on helping local businesses start selling online properly."
+        title="You do not need a big agency history to get a thoughtful, high-quality Shopify store."
+        description="Instead of pretending we have client case studies already, we keep the pitch honest: clear execution, premium design thinking, and a strong focus on helping local businesses build a better online selling system."
       />
 
       <div className="mt-12 grid gap-6 lg:grid-cols-3">

@@ -73,8 +73,8 @@ export default function ContactSection() {
     <section id="contact" className="scroll-mt-24 pb-6">
       <SectionHeading
         eyebrow="Contact"
-        title="Tell us about your store and we’ll show you the best way to launch online."
-        description="If you already sell through Instagram, WhatsApp, or in-store, we can shape the right website and sales funnel around your current business. And if you already have a website that feels dated, we can revamp that too."
+        title="Tell us about your business and we’ll suggest the right online setup."
+        description="If you need a premium static website, a Shopify storefront, WhatsApp marketing, or an Instagram sales funnel, we can shape the right setup around how your business already sells."
       />
 
       <div className="mt-12 grid gap-6 lg:grid-cols-[0.78fr_1.22fr]">
@@ -184,11 +184,11 @@ export default function ContactSection() {
           </div>
 
           <label className="mt-5 block space-y-2">
-            <span className="text-sm text-white/62">What do you want to sell online?</span>
+            <span className="text-sm text-white/62">What kind of setup do you need?</span>
             <textarea
               rows="5"
               name="message"
-              placeholder="Tell us about your products, your Instagram page, or the kind of online store you want."
+              placeholder="Tell us if you need a static website, Shopify store, WhatsApp marketing, Instagram funnel, or a revamp."
               value={form.message}
               onChange={handleChange}
               required
@@ -205,7 +205,7 @@ export default function ContactSection() {
               disabled={status === "loading"}
               className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3.5 text-sm font-semibold text-slate-950 transition hover:scale-[1.01] hover:bg-sky-100"
             >
-              {status === "loading" ? "Sending..." : "Request My Store"}
+              {status === "loading" ? "Sending..." : "Request My Setup"}
             </button>
           </div>
         </motion.form>

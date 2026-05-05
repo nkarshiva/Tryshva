@@ -9,7 +9,7 @@ export default function WhyChooseUsSection() {
       <SectionHeading
         eyebrow="Why Choose Us"
         title="Built for local businesses that need results, not complexity."
-        description="Tryshva blends premium visual design with practical sales thinking, so your store feels more trustworthy and more ready to sell from day one."
+        description="Tryshva blends premium visual design with practical setup and sales thinking, so your online presence feels trustworthy and easier to run from day one."
       />
 
       <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">

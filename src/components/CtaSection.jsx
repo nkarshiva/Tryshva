@@ -18,12 +18,12 @@ export default function CtaSection() {
               Let’s Build
             </p>
             <h2 className="mt-4 text-3xl font-semibold tracking-[-0.045em] text-white sm:text-4xl">
-              Let’s build your online store and turn attention into actual sales.
+              Let’s build the right online setup and turn attention into actual sales.
             </h2>
             <p className="mt-5 text-lg leading-8 text-white/58">
               If you already have products, photos, or an Instagram page, that’s
-              enough to get started. We’ll shape the store, the funnel, and the
-              sales journey around your business.
+              enough to get started. We’ll shape the website, Shopify backend,
+              WhatsApp marketing flow, or sales journey around your business.
             </p>
           </div>
 
@@ -32,7 +32,7 @@ export default function CtaSection() {
               href="#contact"
               className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3.5 text-sm font-semibold text-slate-950 transition hover:scale-[1.01] hover:bg-sky-100"
             >
-              Get Your Store Online
+              Find My Best Setup
             </a>
             <a
               href="#process"
