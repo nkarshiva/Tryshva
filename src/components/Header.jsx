@@ -8,8 +8,8 @@ const navItems = [
   { label: "Contact", href: "#contact" },
 ];
 
-const brandExpansionFirstLine = "Shopify Commerce Systems";
-const brandExpansionSecondLine = "For High-performance Local Stores";
+const brandExpansionFirstLine = "Technology Reimagined for Your Store's";
+const brandExpansionSecondLine = "High-performance Visual Architecture";
 
 export default function Header() {
   return (
